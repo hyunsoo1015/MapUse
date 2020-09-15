@@ -60,5 +60,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>위치정보가 필요합니다.</string>
 </dict>
 </plist>

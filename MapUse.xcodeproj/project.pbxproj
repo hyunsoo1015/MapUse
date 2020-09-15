@@ -13,6 +13,9 @@
 		6C7435B3251049FD00220FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7435B1251049FD00220FA0 /* Main.storyboard */; };
 		6C7435B5251049FF00220FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7435B4251049FF00220FA0 /* Assets.xcassets */; };
 		6C7435B8251049FF00220FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7435B6251049FF00220FA0 /* LaunchScreen.storyboard */; };
+		6C7435C0251068A900220FA0 /* ResultListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7435BF251068A900220FA0 /* ResultListVC.swift */; };
+		6C7435C22510707800220FA0 /* RouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7435C12510707800220FA0 /* RouteVC.swift */; };
+		6C7435C42510946E00220FA0 /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7435C32510946E00220FA0 /* coupon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6C7435B4251049FF00220FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C7435B7251049FF00220FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C7435B9251049FF00220FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7435BF251068A900220FA0 /* ResultListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListVC.swift; sourceTree = "<group>"; };
+		6C7435C12510707800220FA0 /* RouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVC.swift; sourceTree = "<group>"; };
+		6C7435C32510946E00220FA0 /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		6C7435AA251049FD00220FA0 /* MapUse */ = {
 			isa = PBXGroup;
 			children = (
+				6C7435C32510946E00220FA0 /* coupon.png */,
 				6C7435AB251049FD00220FA0 /* AppDelegate.swift */,
 				6C7435AD251049FD00220FA0 /* SceneDelegate.swift */,
 				6C7435AF251049FD00220FA0 /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				6C7435B4251049FF00220FA0 /* Assets.xcassets */,
 				6C7435B6251049FF00220FA0 /* LaunchScreen.storyboard */,
 				6C7435B9251049FF00220FA0 /* Info.plist */,
+				6C7435BF251068A900220FA0 /* ResultListVC.swift */,
+				6C7435C12510707800220FA0 /* RouteVC.swift */,
 			);
 			path = MapUse;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7435B8251049FF00220FA0 /* LaunchScreen.storyboard in Resources */,
+				6C7435C42510946E00220FA0 /* coupon.png in Resources */,
 				6C7435B5251049FF00220FA0 /* Assets.xcassets in Resources */,
 				6C7435B3251049FD00220FA0 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7435B0251049FD00220FA0 /* ViewController.swift in Sources */,
+				6C7435C22510707800220FA0 /* RouteVC.swift in Sources */,
+				6C7435C0251068A900220FA0 /* ResultListVC.swift in Sources */,
 				6C7435AC251049FD00220FA0 /* AppDelegate.swift in Sources */,
 				6C7435AE251049FD00220FA0 /* SceneDelegate.swift in Sources */,
 			);
